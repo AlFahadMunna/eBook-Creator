@@ -68,7 +68,7 @@ const Navbar = () => {
             ) : (
               <>
                 <a
-                  href="?login"
+                  href="/login"
                   className="px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray--900 rounded-lg hover:bg-gray-50 transition-all duration-200"
                 >
                   Login
