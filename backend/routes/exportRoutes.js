@@ -7,6 +7,6 @@ const {
 const { protect } = require("../middleware/authMiddleware");
 
 router.get("/:id/pdf", protect, exportAsPDF);
-router.get("/:id/doc", protect, exportAsDocument);
+router.get("/:id/docx", protect, exportAsDocument);
 
 module.exports = router;
